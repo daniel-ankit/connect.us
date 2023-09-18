@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+    .left{
+        flex: 3;
+        .logo{
+            font-size: 24px;
+            margin-left: 40px;
+            font-weight: bold;
+            color:  rgb(214, 214, 214);
+            
+        }
+    }
+    .center{
+        flex: 5;
+        .searchBar{
+            width: 100%;
+            height: 30px;
+            background-color: rgb(214, 214, 214);
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            input{
+                border: none;
+                width: 70%;
+                background-color:  rgb(214, 214, 214);
+            }
+            input:focus{
+                outline: none;
+            }
+            .searchIcon{
+                font-size: 20px !important;
+                margin-left: 10px; 
+            }
+        }
+    }
+    .right{
+        
+        flex: 4;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: rgb(169, 169, 169);
+        .HeaderProfile{
+            width: 32px;
+        }
+        .HeaderLinks
+        {
+            margin-right: 10px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .HeaderIcons
+        {
+            display: flex;
+            .HeaderIcon{
+                margin-right: 15px;
+                cursor: pointer;
+                position: relative;
+                .HeaderIconBadge{
+                    width: 15px;
+                    height: 15px;
+                    background-color: red;
+                    position: absolute;
+                    color:  rgb(214, 214, 214);
+                    top: -5px;
+                    right: -5px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    font-size: 12px;
+                }
+            }
+        }
+        img{
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            object-fit: cover;
+            cursor: pointer;
+        }
+    }
+}
