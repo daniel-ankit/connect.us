@@ -1,0 +1,16 @@
+.share {
+  font-weight: 500;
+  width: 100%;
+  height: 170px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgb(151, 151, 151);
+  background-color: white;
+}
+.share .wrapper .topBar {
+  display: flex;
+  align-items: center;
+}
+.share .wrapper .topBar img {
+  height: 50px;
+  border-radius: 50%;
+}/*# sourceMappingURL=Share.css.map */

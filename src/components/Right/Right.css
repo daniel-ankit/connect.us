@@ -1,0 +1,23 @@
+body {
+  font-weight: 600;
+}
+body .Right {
+  flex: 3;
+  height: calc(100vh - 60px);
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 5px;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgb(163, 163, 163);
+  overflow-y: scroll;
+}
+body .Right .wrapper {
+  padding: 20px;
+}
+
+::-webkit-scrollbar {
+  margin-top: 10px;
+  width: 5px;
+  border-radius: 10px;
+}/*# sourceMappingURL=Right.css.map */

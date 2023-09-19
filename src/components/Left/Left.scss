@@ -1,0 +1,63 @@
+body{
+    font-weight:600;
+    .Left{
+        flex: 2;
+        height: calc(100vh - 150px);
+        border-radius: 10px;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 10px;
+        background-color: white;
+        box-shadow: 1px 1px 10px rgb(163, 163, 163);
+        overflow-y: scroll;
+        .wrapper{
+            padding: 20px;
+            ul{
+                padding: 0;
+                margin: 0;
+                list-style-type: none;
+                li{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 20px;
+                    .icons{
+                        margin-right: 15px;
+                    }
+                }
+            }
+            button{
+                width: 150px;
+                border: none;
+                padding: 10px;
+                border-radius: 5px;
+                font-weight: 550;
+            }
+            hr{
+                margin: 20px 0;
+            }
+            .Friends{
+                padding: 0;
+                margin: 0;
+                list-style: none;
+                
+                li{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 15px;
+                    img{
+                        width: 32px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+::-webkit-scrollbar{
+    margin-top: 10px;
+    width: 5px;
+    border-radius: 10px;
+}

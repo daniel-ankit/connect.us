@@ -3,9 +3,14 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  background-color: black;
+}
+
 .container {
   height: 50px;
-  width: 100%;
+  margin: auto;
+  width: 80%;
   background-color: rgb(0, 0, 0);
   display: flex;
   align-items: center;
@@ -18,6 +23,7 @@
 .container .left .logo {
   font-size: 24px;
   margin-left: 40px;
+  margin-right: 20px;
   font-weight: bold;
   color: rgb(214, 214, 214);
 }
@@ -27,15 +33,16 @@
 .container .center .searchBar {
   width: 100%;
   height: 30px;
-  background-color: rgb(214, 214, 214);
+  background-color: rgb(240, 240, 240);
   border-radius: 30px;
   display: flex;
   align-items: center;
+  padding-right: 5px;
 }
 .container .center .searchBar input {
   border: none;
   width: 70%;
-  background-color: rgb(214, 214, 214);
+  background-color: rgb(240, 240, 240);
 }
 .container .center .searchBar input:focus {
   outline: none;
@@ -49,16 +56,23 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  color: rgb(169, 169, 169);
+  color: rgb(214, 214, 214);
 }
 .container .right .HeaderProfile {
   width: 32px;
 }
-.container .right .HeaderLink {
+.container .right .HeaderLinks {
   margin-right: 10px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
   font-size: 14px;
   font-weight: bold;
   cursor: pointer;
+}
+.container .right .HeaderLink {
+  margin-right: 7px;
+  margin-left: 7px;
 }
 .container .right .HeaderIcons {
   display: flex;
@@ -82,6 +96,7 @@
   font-size: 12px;
 }
 .container .right img {
+  margin-right: 10px;
   width: 32px;
   height: 32px;
   border-radius: 50%;

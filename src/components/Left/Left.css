@@ -1,0 +1,63 @@
+body {
+  font-weight: 600;
+}
+body .Left {
+  flex: 2;
+  height: calc(100vh - 150px);
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 10px;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgb(163, 163, 163);
+  overflow-y: scroll;
+}
+body .Left .wrapper {
+  padding: 20px;
+}
+body .Left .wrapper ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+body .Left .wrapper ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+body .Left .wrapper ul li .icons {
+  margin-right: 15px;
+}
+body .Left .wrapper button {
+  width: 150px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 550;
+}
+body .Left .wrapper hr {
+  margin: 20px 0;
+}
+body .Left .wrapper .Friends {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+body .Left .wrapper .Friends li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+body .Left .wrapper .Friends li img {
+  width: 32px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 10px;
+}
+
+::-webkit-scrollbar {
+  margin-top: 10px;
+  width: 5px;
+  border-radius: 10px;
+}/*# sourceMappingURL=Left.css.map */
