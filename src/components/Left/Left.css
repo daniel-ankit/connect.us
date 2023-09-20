@@ -1,7 +1,6 @@
-body {
-  font-weight: 600;
-}
 body .Left {
+  font-weight: 500;
+  font-size: 13.5px;
   flex: 2;
   height: calc(100vh - 150px);
   border-radius: 10px;

@@ -1,0 +1,76 @@
+.post {
+  width: 100%;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgb(163, 163, 163);
+  margin-top: 12px;
+  font-weight: 500;
+}
+.post .wrapper {
+  padding: 10px;
+}
+.post .wrapper .topBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.post .wrapper .topBar .topLeft {
+  display: flex;
+  align-items: center;
+}
+.post .wrapper .topBar .topLeft img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.post .wrapper .topBar .topLeft .text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 7px;
+}
+.post .wrapper .topBar .topLeft .text span {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 10px;
+}
+.post .wrapper .topBar .topLeft .text .time {
+  font-size: 12px;
+  font-weight: 500;
+}
+.post .wrapper .centerBar {
+  margin: 20px 0;
+}
+.post .wrapper .centerBar img {
+  margin-top: 20px;
+  width: 100%;
+  max-height: 500px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.post .wrapper .centerBar .caption {
+  font-size: 14px;
+  font-weight: 500;
+}
+.post .wrapper .bottomBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.post .wrapper .bottomBar .bottomLeft {
+  display: flex;
+  align-items: center;
+}
+.post .wrapper .bottomBar .bottomLeft img {
+  height: 30px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.post .wrapper .bottomBar .bottomLeft .counter {
+  font-size: 14px;
+}
+.post .wrapper .bottomBar .bottomRight span {
+  cursor: pointer;
+  font-size: 14px;
+}/*# sourceMappingURL=Post.css.map */

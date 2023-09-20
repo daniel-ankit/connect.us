@@ -1,9 +1,11 @@
 body{
     .Feed{
+        
         flex: 5.5;
         margin: 5px 0 5px 0;
-        .wrapper{
-            padding: 20px;
+        .feedwrapper{
+            height: calc(100vh - 60px);
+            overflow-y: scroll !important;
         }
     }
 }

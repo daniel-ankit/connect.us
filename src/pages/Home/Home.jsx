@@ -3,6 +3,7 @@ import Header from "../../components/Header/Header"
 import Left from "../../components/Left/Left"
 import './Home.css'
 import Right from "../../components/Right/Right"
+import Ads from "../../components/ads/ads";
 
 export default function Home() {
     return (
@@ -12,7 +13,10 @@ export default function Home() {
                 <div className="homeContainer">
                     <Left/>
                     <Feed/>
-                    <Right/>
+                    <div className="rightConatiner">
+                        <Right/>
+                        <Ads />
+                    </div>
                 </div>
             </div>
         </>

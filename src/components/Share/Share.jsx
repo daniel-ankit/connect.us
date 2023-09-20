@@ -1,5 +1,5 @@
 import "./Share.css"
-import { PermMedia } from "@mui/icons-material"
+import { EmojiEmotions, LocalOffer, PermMedia, Room } from "@mui/icons-material"
 
 export default function Share() {
     return (
@@ -10,11 +10,26 @@ export default function Share() {
                     <input placeholder="What's on your mind?"></input>
                 </div>
                 <hr/>
-                <div className="shareOptions">
-                    <div className="option">
-                        <PermMedia />
-                        <span className="image">Photo or Video</span>
+                <div className="bottomBar">
+                    <div className="shareOptions">
+                        <div className="option">
+                            <PermMedia htmlColor="tomato" className="icon"/>
+                            <span className="media">Add Media</span>
+                        </div>
+                        <div className="option">
+                            <LocalOffer htmlColor="blue" className="icon"/>
+                            <span className="image">Tag</span>
+                        </div>
+                        <div className="option">
+                            <Room htmlColor="green" className="icon"/>
+                            <span className="image">Location</span>
+                        </div>
+                        <div className="option">
+                            <EmojiEmotions htmlColor="#FFC300" className="icon"/>
+                            <span className="image">Feelings</span>
+                        </div>
                     </div>
+                    <button>Share</button>
                 </div>
             </div>
         </div>

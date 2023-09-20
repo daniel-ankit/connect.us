@@ -28,10 +28,6 @@ export default function Left() {
                         <span>Bookmark</span>
                     </li>
                     <li>
-                        <HelpOutline className="icons"/>
-                        <span>Questions</span>
-                    </li>
-                    <li>
                         <Event className="icons"/>
                         <span>Events</span>
                     </li>
@@ -49,15 +45,11 @@ export default function Left() {
                     </li>
                     <li className="friend">
                         <img src="/assets/Person/3.jpg" alt=""/>
-                        <span>Chris Evans</span>
+                        <span>Steve Rogers</span>
                     </li>
                     <li className="friend">
                         <img src="/assets/Person/5.jpg" alt=""/>
-                        <span>Mimi Chakraborty</span>
-                    </li>
-                    <li className="friend">
-                        <img src="/assets/Person/4.jpg" alt=""/>
-                        <span>Jack Sparrow</span>
+                        <span>Lana Rhoades</span>
                     </li>
                 </ul>
             </div>
