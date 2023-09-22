@@ -48,7 +48,7 @@ body .Left .wrapper .Friends li {
   margin-bottom: 15px;
 }
 body .Left .wrapper .Friends li img {
-  width: 32px;
+  width: 40px;
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;

@@ -1,6 +1,8 @@
 import { Bookmark, Chat, Event, Group, HelpOutline, PlayCircleFilledOutlined, RssFeed, School, WorkOutline } from "@mui/icons-material";
 import "./Left.css";
 import {} from "@mui/material/Icon"
+import Friends from "../closeFriends/closeFriends"
+import { Users } from "../../dummyData";
 
 export default function Left() {
     return (
@@ -39,18 +41,9 @@ export default function Left() {
                 <button>Show More</button>
                 <hr/>
                 <ul className="Friends" over>
-                    <li className="friend">
-                        <img src="/assets/Person/2.jpeg" alt=""/>
-                        <span>Tom Cruise</span>
-                    </li>
-                    <li className="friend">
-                        <img src="/assets/Person/3.jpg" alt=""/>
-                        <span>Steve Rogers</span>
-                    </li>
-                    <li className="friend">
-                        <img src="/assets/Person/5.jpg" alt=""/>
-                        <span>Lana Rhoades</span>
-                    </li>
+                    {Users.map(u=>(
+                        <Friends key = {u.id} user={u}/>
+                    ))}
                 </ul>
             </div>
         </div>

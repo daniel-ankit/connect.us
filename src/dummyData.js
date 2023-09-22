@@ -6,7 +6,7 @@ export const Users = [
     },
     {
         id : 2,
-        profile: "assets/Person/2.jpg",
+        profile: "assets/Person/2.jpeg",
         userName : "Tom Cruise"
     },
     {
@@ -39,6 +39,16 @@ export const Users = [
         profile: "assets/Person/8.jpg",
         userName : "Chris Hamesworth"
     },
+    {
+        id : 9,
+        profile: "assets/Person/9.jpg",
+        userName : "Alex Dunphy"
+    },
+    {
+        id : 10,
+        profile: "assets/Person/10.jpg",
+        userName : "Josephine Langford"
+    }
 ]
 
 export const Posts = [
@@ -82,7 +92,7 @@ export const Posts = [
         id: 5,
         description: "Post Workout selfie.",
         photo : "assets/Post/5.jpg",
-        date:"23 hours ago",
+        date:"5 hours ago",
         userId : 5,
         like: 955,
         comment: 33
@@ -91,27 +101,27 @@ export const Posts = [
         id: 6,
         description: "Can't deny how talented this new generation is. This season was a blessing to us all. Hope I get to again work with you guys soon.",
         photo : "assets/Post/6.jpg",
-        date:"55 mins ago",
+        date:"6 hours ago",
         userId : 6,
         like: 1804,
         comment: 125
+    },
+    {
+        id: 7,
+        description: "I know I look breath-takingly hot. You don't have to tell me.",
+        photo : "assets/Post/7.jpg",
+        date:"8 hour ago",
+        userId : 9,
+        like: 441,
+        comment: 55
+    },
+    {
+        id: 8,
+        description: "",
+        photo : "assets/Post/8.jpg",
+        date:"12 hours ago",
+        userId : 10,
+        like: 390,
+        comment: 21
     }
-    // {
-    //     id: 3,
-    //     description: "Mission Impossible : Fallout is now out. Watch in your nearest theaters.",
-    //     photo : "assets/Post/3.jpg",
-    //     date:"55 mins ago",
-    //     userId : 3,
-    //     like: 3200,
-    //     comment: 91
-    // }
-    // {
-    //     id: 3,
-    //     description: "Mission Impossible : Fallout is now out. Watch in your nearest theaters.",
-    //     photo : "assets/Post/3.jpg",
-    //     date:"55 mins ago",
-    //     userId : 3,
-    //     like: 3200,
-    //     comment: 91
-    // }
 ]

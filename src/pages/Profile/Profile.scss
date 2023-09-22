@@ -1,0 +1,14 @@
+.Main{
+    background-color: rgb(230, 230, 230);
+    .homeContainer{
+        background-color: rgb(230, 230, 230);
+        margin: auto;
+        width: 80%;
+        align-content: space-between;
+        display: flex;
+        .box{
+            border-radius: 10%;
+            display: none;
+        }
+    }
+}
