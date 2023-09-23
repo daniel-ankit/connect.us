@@ -1,0 +1,91 @@
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.background {
+    filter: blur(2px);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.loginWrapper{
+    background-color: rgba(255, 255, 255, 0.355);
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.468);
+    border-radius: 10px;
+    padding: 15px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 10;
+    width: 450px;
+    height: 600px;
+    .top{
+        font-weight: 500;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h3{
+            font-size: 50px;
+            font-weight: 800;
+            color: rgb(0, 0, 0);
+            margin: 0;
+        }
+        span{
+            color: rgba(255, 255, 255, 0.792);
+        }
+        margin-bottom: 50px;
+    }
+    .loginBox{
+        height: 350px;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        justify-content: space-between;
+        input{
+            height: 50px;
+            border-radius: 10px;
+            border: 1px solid gray;
+            font-size: 16px;
+            padding-left: 20px;
+            border: none;
+            outline: none;
+            margin-bottom: 12px;
+        }
+        .login{
+            font-weight: 600;
+            height: 50px;
+            border-radius: 10px;
+            border: none;
+            background-color: black;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            margin-bottom: 12px;
+        }
+        .forgot{
+            text-align: center;
+            color: rgba(255, 255, 255, 0.792);
+            font-weight: 500;
+        }
+        .register{
+            font-weight: 600;
+            height: 50px;
+            border-radius: 10px;
+            width: 70%;
+            border: none;
+            background-color: rgb(17, 174, 0);
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            align-self: center;
+        }
+    }
+}

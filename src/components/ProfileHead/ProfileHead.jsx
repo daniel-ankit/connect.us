@@ -9,7 +9,7 @@ export default function ProfileHead() {
             </div>
             <div className="profileInfo">
                 <h4 className="profileName">Katherine Langford</h4>
-                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, sunt? </span>
+                <span>I've heard so many stories about me now that I don't know which one is the most popular.</span>
             </div>
         </div>
     )
