@@ -1,13 +1,18 @@
-import "./Profile.css"
 import Header from "../../components/Header/Header"
+import Left from "../../components/Left/Left"
+import './Profile.css'
+import Right from "../../components/Right/Right"
+import ProfileMiddle from "../../components/ProfileMiddle/ProfileMiddle"
 
-export default function Profile() {
+export default function Home() {
     return (
         <>
-            <Header/>
+            <Header />
             <div className="Main">
                 <div className="homeContainer">
-                    
+                    <Left/>
+                    <ProfileMiddle/>
+                    <Right profile/>
                 </div>
             </div>
         </>

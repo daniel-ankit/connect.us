@@ -1,0 +1,8 @@
+body .ProfileMiddle {
+  flex: 5.5;
+  margin: 5px 0 5px 0;
+}
+body .ProfileMiddle .ProfileMiddlewrapper {
+  height: calc(100vh - 60px);
+  overflow-y: scroll !important;
+}/*# sourceMappingURL=ProfileMiddle.css.map */

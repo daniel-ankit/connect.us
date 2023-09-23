@@ -13,10 +13,7 @@ export default function Home() {
                 <div className="homeContainer">
                     <Left/>
                     <Feed/>
-                    <div className="rightConatiner">
-                        <Right/>
-                        <Ads />
-                    </div>
+                    <Right/>
                 </div>
             </div>
         </>

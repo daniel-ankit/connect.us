@@ -3,10 +3,13 @@ body {
   align-items: center;
 }
 body .Right {
-  width: 300px;
+  flex: 3;
   font-size: 13px;
   font-weight: 500;
-  height: calc(100vh - 300px);
+  min-height: calc(100vh - 300px);
+  height: -moz-fit-content;
+  height: fit-content;
+  max-height: calc(100vh - 60px);
   border-radius: 10px;
   margin-top: 5px;
   margin-left: 10px;
@@ -26,6 +29,52 @@ body .Right .wrapper .birthday {
 body .Right .wrapper .birthday img {
   height: 40px;
   margin-right: 10px;
+}
+body .Right .rightTitle {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 0;
+  margin-left: 0;
+}
+body .Right .rightTitle .followings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body .Right .rightTitle .followings .following {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+body .Right .rightTitle .followings .following img {
+  height: 90px;
+  width: 90px;
+  border-radius: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .Right .rightTitle .followings .following span {
+  max-width: 90px;
+  font-size: 14px;
+  color: rgb(98, 98, 98);
+  text-align: center;
+}
+body .Right .rightInfo {
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+body .Right .rightInfo .infoItem {
+  margin-bottom: 10px;
+}
+body .Right .rightInfo .infoItem .infokey {
+  font-weight: 600;
+  margin-right: 5px;
+  color: rgb(98, 98, 98);
+}
+body .Right .rightInfo .infoItem .infoValue {
+  font-weight: 500;
+  color: rgb(128, 128, 128);
 }
 body .Right h4 {
   margin-left: 20px;
