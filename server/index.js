@@ -17,7 +17,6 @@ app.use(morgan("common"));
 app.use("/api/users", userRoute);
 app.use("/api/auth", authRoute);
 
-
 app.listen(process.env.PORT, ()=>{
     console.log(`Listening at ${process.env.PORT}`);
 })
