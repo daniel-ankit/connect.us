@@ -3,6 +3,8 @@ const dotenv = require('dotenv');
 const helmet = require('helmet');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
+const userRoute = require("./routes/users")
+const authRoute = require("./routes/auth")
 
 const app = express();
 dotenv.config();
@@ -12,14 +14,10 @@ app.use(express.json());
 app.use(helmet());
 app.use(morgan("common"));
 
-app.get("/", (req, res)=>{
-    res.send("Welcome to Homepage");
-})
+app.use("/api/users", userRoute);
+app.use("/api/auth", authRoute);
 
-app.get("/users", (req, res)=>{
-    res.send("Welcome to Users");
-})
 
-app.listen(3000, ()=>{
-    console.log(`Listening at 3000`);
+app.listen(process.env.PORT, ()=>{
+    console.log(`Listening at ${process.env.PORT}`);
 })
