@@ -33,6 +33,10 @@ const userSchema = new mongoose.Schema({
         type: Array,
         default: []
     },
+    description: {
+        type: String,
+        max: 100,
+    },
     followings: {
         type: Array,
         default: []
