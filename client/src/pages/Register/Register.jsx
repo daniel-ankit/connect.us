@@ -1,7 +1,7 @@
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 import { useCallback } from "react";
-import "./Login.css"
+import "./Register.css"
 
 const Background = () => {
     const options = {
@@ -118,7 +118,7 @@ const Foreground = ({login}) => {
     }
 }
 
-export default function Login({login}) {
+export default function Register({login}) {
     return (
         <div className="loginContainer">
             <Background />
