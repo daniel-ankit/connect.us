@@ -4,7 +4,7 @@ export default function Online({user}) {
     return (
         <li>
             <div className="profile">
-                <img src={user.profile} alt="" />
+                <img src={"/assets/" + user.profile} alt="" />
                 <span className="online"></span>
             </div>
             <span>{user.userName}</span>

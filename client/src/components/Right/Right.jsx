@@ -56,6 +56,10 @@ export default function Right({profile}) {
                     <img src="/assets/Birthday.png" alt="" />
                     <span> <b>Gal Gadot</b> and <b>3 other friends </b> have birtdays today.</span>
                 </div>
+                <div className="posted">
+                    <img src="/assets/Posted.png" alt="" />
+                    <span> <b>Josephine Langford</b> has recently posted after a long time.</span>
+                </div>
             </div>
             <h4>Online Friends</h4>
             <ul className="Friends">

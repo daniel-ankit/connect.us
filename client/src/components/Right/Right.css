@@ -20,13 +20,15 @@ body .Right {
 }
 body .Right .wrapper {
   padding: 20px;
+  padding-bottom: 0px;
 }
-body .Right .wrapper .birthday {
+body .Right .wrapper .birthday, body .Right .wrapper .posted {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 15px;
 }
-body .Right .wrapper .birthday img {
+body .Right .wrapper .birthday img, body .Right .wrapper .posted img {
   height: 40px;
   margin-right: 10px;
 }

@@ -17,10 +17,12 @@ body{
         overflow-y: scroll;
         .wrapper{
             padding: 20px;
-            .birthday{
+            padding-bottom: 0px;
+            .birthday, .posted{
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                margin-bottom: 15px;
                 img{
                     height: 40px;
                     margin-right: 10px;

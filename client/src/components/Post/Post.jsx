@@ -16,7 +16,7 @@ export default function Post({post}) {
             <div className="wrapper">
                 <div className="topBar">
                     <div className="topLeft">
-                        <img src={Users.filter(u=>u.id === post.userId)[0].profile} alt="" />
+                        <img src={"/assets/" + Users.filter(u=>u.id === post.userId)[0].profile} alt="" />
                         <div className="text">
                             <span>{Users.filter(u=>u.id === post.userId)[0].userName}</span>
                             <span className="time">{post.date}</span>
@@ -28,7 +28,7 @@ export default function Post({post}) {
                 </div>
                 <div className="centerBar">
                     <span className="caption">{post?.description}</span>
-                    <img src={post.photo} alt="" />
+                    <img src={"/assets/" + post.photo} alt="" />
                 </div>
                 <div className="bottomBar">
                     <div className="bottomLeft">
