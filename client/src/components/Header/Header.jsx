@@ -1,11 +1,14 @@
 import "./Header.css"
 import { Search, Person, Chat, Notifications } from "@mui/icons-material"
+import { Link } from "react-router-dom"
 
 export default function Header() {
     return (
         <div className="container">
             <div className="left">
-                <span className="logo">connect.us</span>
+                <Link to ="/" style={{textDecoration : "none"}}>
+                    <span className="logo">connect.us</span>
+                </Link>
             </div>
             <div className="center">
                 <div className="searchBar">
